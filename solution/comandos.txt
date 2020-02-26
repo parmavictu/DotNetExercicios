@@ -1,0 +1,23 @@
+Criar projeto:
+dotnet new console -n nomeProjeto
+
+Criar solution(build com vários projetos):
+dotnet new sln -n nomeProjeto
+
+Adicionar um projeto ao solution:
+dotnet new sln add caminhoDoProjeto/
+
+Criar build:
+dotnet build
+
+Criar classe
+dotnet new classlib -n Nome
+
+adicionar uma referencia para uma lib:
+dotnet add reference caminho/
+
+Adicionar libs exteriores
+dotnet add package nome
+
+Rodar o programa;
+dotnet run
